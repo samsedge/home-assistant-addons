@@ -7,7 +7,11 @@ slug: crowdsec-cloudflare-bouncer
 init: false
 auth_api: true
 arch:
-  - x64
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
 
 image: "ghcr.io/krisbogaerts/{arch}-addon-crowdsec-cloudflare-bouncer"
 options:
